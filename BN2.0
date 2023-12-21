@@ -1,0 +1,26 @@
+void main() {
+//Declaring and defining a list
+  List<String> fav_food = ["biryani", "tikka", "pizza"];
+  
+  print("TASK 1");
+  print("The first element of the list is ${fav_food.first}");
+  print("The last element of the list is ${fav_food.last}");
+  print("The reversed list is ${fav_food.reversed}");
+  print("The length of the list is ${fav_food.length}\n");
+
+  //Declaring and defining two integers
+  int a = 25; 
+  int b = 20;
+  
+  print("TASK 2");
+  print("25+20=: ${a+b}" );
+  print("25-20=: ${a-b}" );
+  print("25*20=: ${a*b}" );
+  print("25/20=: ${a/b}\n" );
+  
+  double F = 100 ;
+  double C;
+  C = (F-32)*5/9;
+  print("TASK 3");
+  print("The converted temperature in Celsius is: $C");
+}
